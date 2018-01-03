@@ -1,0 +1,42 @@
+body {
+	margin: 32px;
+}
+
+.actions {
+	margin: 20px 0;
+}
+
+#excel input {
+    border: none;
+    width: 80px;
+    font-size: 14px;
+    padding: 2px;
+}
+
+#excel input:hover {
+    background-color: #eee;
+}
+
+#excel input:focus {
+    background-color: #ccf;
+}
+
+#excel input:not(:focus) {
+    text-align: right;
+}
+
+#excel {
+    border-collapse: collapse;  
+}
+
+#excel td {
+    border: 1px solid #999;
+    padding: 0;
+}
+
+#excel tr:first-child td, #excel td:first-child {
+    background-color: #ccc;
+    padding: 1px 3px;
+    font-weight: bold;
+    text-align: center;
+}
